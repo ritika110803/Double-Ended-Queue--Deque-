@@ -56,6 +56,7 @@ int isFull() {
 // Check if empty
 
 int isEmpty() {
+    
     return (front == -1);
 }
 
