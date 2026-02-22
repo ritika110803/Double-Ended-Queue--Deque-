@@ -49,6 +49,7 @@ int rear = -1;
 // Check if full
 
 int isFull() {
+    
     return ((rear + 1) % SIZE == front);
 }
 
@@ -63,6 +64,7 @@ int isEmpty() {
 void insertFront(int value) {
     
     if (isFull()) {
+       
         printf("Deque is Full!\n");
         return;
     }
